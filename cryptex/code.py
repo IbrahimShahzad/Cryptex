@@ -19,7 +19,7 @@ def read_key():
         return key
 
 if __name__ == '__main__':
-    #gen_key() 
+    gen_key() 
     backend = default_backend()
     iv = os.urandom(16)
     key = read_key()
